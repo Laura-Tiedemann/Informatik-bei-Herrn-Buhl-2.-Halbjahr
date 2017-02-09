@@ -1,23 +1,26 @@
 
-<h1> <a id="h">Stride Lernaktivitäten Krull+Tiedemann</a></h1>
+<h1> <a id="Übe">Stride Lernaktivitäten Krull+Tiedemann</a></h1>
 Informatik bei Herrn Buhl, 2. Halbjahr 2016/17
  
 <h2> Clash of Crabs</h2>
 Bitte entnehmen Sie unser Spiel Clash of Crabs dem Informatikordner auf iSurfStormarn.
     
-### Gliederung
-1. [Spielprinzip](#a)
-     1.1 [Ziel des Spiels](#b)
-     1.2 [Steuerung](#c)
-2. [Spielentwicklung](#d)
-    2.1 [Greenfoot-Einstieg](#i)
-    2.2 [Ideen](#g)
-    2.3 [Implementierung](#e)
-3. [Weitere Entwicklungsideen](#f)
+<h3> Gliederung</h3>
+
+<ul>
+      <li><a href="#Spi">1. Spielprinzip</a></li>
+      <li><a href="#Zie">1.1 Ziel des Spiels</a></li>
+      <li><a href="#Ste">1.2 Steuerung</a></li>
+      <li><a href="#Ent">2. Spielentwicklung</a></li>
+      <li><a href="#Ein">2.1 Greenfoot-Einstieg</a></li>
+      <li><a href="#Ide">2.2 Ideen</a></li>
+      <li><a href="#Imp">2.3 Implementierung</a></li>
+      <li><a href="#Wei">3. Weitere Entwicklungsideen</a></li>
+    </ul>
 
 ___ 
 
-### <a id="a">Spielprinzip</a>
+<h3><a id="Spi">Spielprinzip</a></h3>
 
 Schlüpfen Sie in die Rolle einer Krabbe am Sandstrand! 
 
@@ -28,11 +31,11 @@ Ab und zu können Sie sich am Anblick äußerst dekorativer Seesterne beglücken
 
 Clash of Crabs ist zurzeit ein reines Multiplayerspiel.
 
-#### <a id="b">Ziel des Spiels</a>
+<h4> <a id="Zie">Ziel des Spiels</a></h4>
 
 Überleben!
 
-#### <a id="c">Steuerung</a>
+<h4> <a id="Ste">Steuerung</a></h4>
 
 Naturgetreue Darstellungen sind uns sehr wichtig. Daher bewegen sich die Krabben seitwärts fort.
 
@@ -40,18 +43,18 @@ Die obere Krabbe (Player 1) wird mit Hilfe der Pfeiltasten gesteuert, die untere
 
 ___ 
 
-### <a id="d">Spielentwicklung</a>
+<h3> <a id="Ent">Spielentwicklung</a></h3>
 
 Zuerst haben wir uns durch die Stride Lernaktivitäten gearbeitet, um uns einen ersten Einblick in die Programmiersprache Stride zu verschaffen. Dabei fiel uns vor allem das "Little Crab" Szenario ins Auge, welches unserer Meinung nach hohes Potenzial besitzt. Also haben wir uns die weiteren Informatikstunden dem "Little Crab" Szenario gewidmet, unsere eigenen Ideen eingebracht und es immer weiter verbessert, bis schließlich unser Spiel "Clash of Crabs" entstanden ist.
 
-#### <a id="i">Greenfoot-Einstieg</a>
+<h4> <a id="Ein">Greenfoot-Einstieg</a></h4>
 
 Um einen ersten Einblick in Greenfoot zu bekommen, haben wir uns zunächst durch die Greenfoot-Stride-Lernaktivitäten gearbeitet. Das Meet-the-Greeps Szenario gab uns einen ersten Eindruck, wie Greenfoot aufgebaut ist und wie wir Befehle im Editor erstellen und verändern. Die Grundlagen der Tastatursteuerung sowie die Verwendung von Variablen haben wir so kennengelernt.
 Anschließend haben wir uns mit dem FatCat Szenario beschäftigt. Da wir die Befehle hierbei selbst erstellen sollten, haben wir uns mit den verschiedenen Hotkeys auseinandergesetzt und anschließend verschiedene Methoden ausprobiert. Das Endergebnis der tanzenden Katze war dabei ein großer Erfolg.
 
 ![Cat-Dance](cat-dance.png)
 
-#### <a id="g">Ideen</a>
+<h4> <a id="Ide">Ideen</a></h4>
 
 Unsere erste Idee für eine Verbesserung bestand darin, Clash of Crabs zu einem Multiplayerspiel zu machen, da Multiplayerspiele sich generell einer hohen Beliebtheit erfreuen. Hierfür haben wir uns überlegt, dass die eine Krabbe mit den Pfeiltasten und die andere Krabbe mit w,a,s,d, gesteuert werden kann. Natürlich müssen sich die beiden Krabben auch optisch voneinander unterscheiden.
 
@@ -64,7 +67,7 @@ Für die Hummer haben wir einen praktikablen Bewegungsablauf programmiert, der s
 
 Als letztes haben wir dem Spiel noch Sounds hinzugefügt: Eine chillige Beachmusic als Hintergrundmusik, um Strandflair zu kreieren, sowie einen hippen Sound, wenn eine der Krabben gefressen wird. Dieser gibt somit den Gewinner akustisch bekannt.
 
-#### <a id="e">Implementierung</a>
+<h4> <a id="Imp">Implementierung</a></h4>
 
 Um den zwei Krabben eine unterschiedliche Tastatursteuerung zu geben, haben wir mit Constructors gearbeitet. 
 Dafür haben wir zunächst beim Actor "Crab" in "Fields" vier Variablen vom Typ String erstellt (keyUp, keyDown, keyLeft, keyRight). In "Constructors" haben wir dann für jede Krabbe vier Constructors (keyU, keyD, keyL, keyR), ebenfalls vom Typ String, erstellt. Darunter haben wir die vier Constructors definiert, und zwar als die vier zuvor erstellten Variablen. 
@@ -89,7 +92,7 @@ Nach dem selben Prinzip haben wir auch immer neue Würmer und Seesterne spawnen 
 ![Spielszenario](Spielszenario.png)
 ___ 
 
-### <a id="f">Weitere Entwicklungsideen</a>
+<h3> <a id="Wei">Weitere Entwicklungsideen</a></h3>
 
 Wir haben noch viele weitere Ideen, um unser Spiel zu verbessern, die wir jedoch aufgrund Zeitmangels (noch) nicht umsetzen konnten. 
 
@@ -108,4 +111,4 @@ Des Weiteren sollten die überaus dekorativen Seesterne eine Funktion erhalten. 
 
 ___ 
 
-[zum Seitenanfang](#h)
+<a href="#Übe">zum Seitenanfang</a>
