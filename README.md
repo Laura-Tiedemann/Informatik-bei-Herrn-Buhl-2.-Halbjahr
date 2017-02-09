@@ -52,7 +52,7 @@ Zuerst haben wir uns durch die Stride Lernaktivitäten gearbeitet, um uns einen 
 Um einen ersten Einblick in Greenfoot zu bekommen, haben wir uns zunächst durch die Greenfoot-Stride-Lernaktivitäten gearbeitet. Das Meet-the-Greeps Szenario gab uns einen ersten Eindruck, wie Greenfoot aufgebaut ist und wie wir Befehle im Editor erstellen und verändern. Die Grundlagen der Tastatursteuerung sowie die Verwendung von Variablen haben wir so kennengelernt.
 Anschließend haben wir uns mit dem FatCat Szenario beschäftigt. Da wir die Befehle hierbei selbst erstellen sollten, haben wir uns mit den verschiedenen Hotkeys auseinandergesetzt und anschließend verschiedene Methoden ausprobiert. Das Endergebnis der tanzenden Katze war dabei ein großer Erfolg.
 
-![Cat-Dance](cat-dance.png)
+<img src="images/cat-dance.png" alt="Cat-Dance" style="width:290px;height:230px;border:0;">
 
 <h4> <a id="Ide">Ideen</a></h4>
 
