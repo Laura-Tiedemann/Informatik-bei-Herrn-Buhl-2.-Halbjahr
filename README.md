@@ -24,7 +24,7 @@ Bitte entnehmen Sie unser Spiel Clash of Crabs dem Informatikordner auf iSurfSto
 
 Schlüpfen Sie in die Rolle einer Krabbe am Sandstrand! 
 
-<p><img src="images/Startszenario.png" alt="Startszenario" style="width:420px;height:420px;border:0;"></p>
+<p><img src="images/Startszenario.png" alt="Startszenario" style="width:1095px;height:697px;border:5;"></p>
 
 Es tummeln sich dort Würmer, Seesterne und Hummer. In einem ständigen Überlebens- und Konkurrenzkampf erleben Sie den ultimativen Adrenalinkick. Sie sind ständig auf der Suche nach leckeren Würmern. Doch nehmen Sie sich in Acht vor den sadistischen Hummern, die sich völlig unberechenbar bewegen und Ihnen während der Nahrungssuche nach dem Leben trachten. 
 Ab und zu können Sie sich am Anblick äußerst dekorativer Seesterne beglücken.
