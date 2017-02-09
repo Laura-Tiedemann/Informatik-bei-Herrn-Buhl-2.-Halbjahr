@@ -70,17 +70,17 @@ Als letztes haben wir dem Spiel noch Sounds hinzugefügt: Eine chillige Beachmus
 
 <p>Um den zwei Krabben eine unterschiedliche Tastatursteuerung zu geben, haben wir mit Constructors gearbeitet. 
 Dafür haben wir zunächst beim Actor "Crab" in "Fields" vier Variablen vom Typ String erstellt (keyUp, keyDown, keyLeft, keyRight). In "Constructors" haben wir dann für jede Krabbe vier Constructors (keyU, keyD, keyL, keyR), ebenfalls vom Typ String, erstellt. Darunter haben wir die vier Constructors definiert, und zwar als die vier zuvor erstellten Variablen. 
-Dann haben wir eine Methode namens "TastatursteuerungCrab" erstellt und für jede Bewegungsrichtung unsere Variablen keyUp, keyDown, keyLeft und keyRight eingesetzt.<br>
-Anschließend haben wir in der CrabWorld "prepare"-Methode den beiden Krabben ihre unterschiedlichen Constructors 
-(w,a,s,d bzw. die Pfeiltasten) zugewiesen.
-<br>Nach demselben Prinzip haben wir beiden Krabben verschiedene Bilder zugewiesen.
-<br>Die alten Grafiken haben wir ausgetauscht, indem wir zunächst im Internet nach neuen, realitätsnäheren Grafiken gesucht haben.
-<br>Anschließend haben wir diese einfach in den "Images" Ordner eingefügt und für die jeweiligen Actors unsere Grafiken ausgewählt.
-<br>Gleiches haben wir mit den Sounds gemacht. Diese haben wir ebenfalls im Internet gefunden, in den "Sounds" Ordner eingefügt und an den richtigen Stellen in unser Spiel einprogrammiert.
-<br>Der Bewegungsablauf der Hummer erfolgt nach dem Zufallsprinzip. Dies haben wir umgesetzt, indem  wir die Hummer konstant vorwärts laufen lassen und zufällig ("Greenfoot.getRandomNumber") deren Bewegungsrichtung mithilfe von "setRotation"  ändern. 
-Mit den Wahrscheinlichkeiten haben wir so lange rumprobiert, bis die Hummer schließlich über den gesamten Bildschirm gelaufen sind.
-<br>Damit immer neue Hummer spawnen, haben wir in CrabWorld in "Fields" zuerst eine Variable vom Typ Integer erstellt ("zeitZumLobster") und diese auf 0 gesetzt. In der "act"-Methode der CrabWorld haben wir programmiert, dass die "zeitZumLobster" pro Tic um 1 erhöht wird und dass nach 600 Tics jeweils ein neuer Hummer in der Mitte der Welt gespawnt wird. Die "zeitZumLobster" wird anschließend wieder auf 0 gesetzt.
-<br>Nach dem selben Prinzip haben wir auch immer neue Würmer und Seesterne spawnen lassen. Die "zeitZumWurm" haben wir auf 75 Tics festgelegt, damit diese stets vorhanden sind. Die Seesterne spawnen nach 1000 Tics, sodass das Treffen auf einen Seestern eine seltene Begegnung bleibt.</p>
+Dann haben wir eine Methode namens "TastatursteuerungCrab" erstellt und für jede Bewegungsrichtung unsere Variablen keyUp, keyDown, keyLeft und keyRight eingesetzt.</p>
+<p>Anschließend haben wir in der CrabWorld "prepare"-Methode den beiden Krabben ihre unterschiedlichen Constructors 
+(w,a,s,d bzw. die Pfeiltasten) zugewiesen.<br>
+Nach demselben Prinzip haben wir beiden Krabben verschiedene Bilder zugewiesen.</p>
+<p>Die alten Grafiken haben wir ausgetauscht, indem wir zunächst im Internet nach neuen, realitätsnäheren Grafiken gesucht haben.<br>
+Anschließend haben wir diese einfach in den "Images" Ordner eingefügt und für die jeweiligen Actors unsere Grafiken ausgewählt.</p>
+<p>Gleiches haben wir mit den Sounds gemacht. Diese haben wir ebenfalls im Internet gefunden, in den "Sounds" Ordner eingefügt und an den richtigen Stellen in unser Spiel einprogrammiert.</p>
+<p>Der Bewegungsablauf der Hummer erfolgt nach dem Zufallsprinzip. Dies haben wir umgesetzt, indem  wir die Hummer konstant vorwärts laufen lassen und zufällig ("Greenfoot.getRandomNumber") deren Bewegungsrichtung mithilfe von "setRotation"  ändern. 
+Mit den Wahrscheinlichkeiten haben wir so lange rumprobiert, bis die Hummer schließlich über den gesamten Bildschirm gelaufen sind.</p>
+<p>Damit immer neue Hummer spawnen, haben wir in CrabWorld in "Fields" zuerst eine Variable vom Typ Integer erstellt ("zeitZumLobster") und diese auf 0 gesetzt. In der "act"-Methode der CrabWorld haben wir programmiert, dass die "zeitZumLobster" pro Tic um 1 erhöht wird und dass nach 600 Tics jeweils ein neuer Hummer in der Mitte der Welt gespawnt wird. Die "zeitZumLobster" wird anschließend wieder auf 0 gesetzt.<br>
+<p>Nach dem selben Prinzip haben wir auch immer neue Würmer und Seesterne spawnen lassen. Die "zeitZumWurm" haben wir auf 75 Tics festgelegt, damit diese stets vorhanden sind. Die Seesterne spawnen nach 1000 Tics, sodass das Treffen auf einen Seestern eine seltene Begegnung bleibt.</p>
 
 <p><img src="images/Spielszenario.png" alt="Spielszenario" style="width:550px;height:350px;border:0;"></p>
 
@@ -94,10 +94,10 @@ Mit den Wahrscheinlichkeiten haben wir so lange rumprobiert, bis die Hummer schl
 <p><img src="images/player1wins.png" alt="Player 1 wins" style="width:600px;height:150px;border:0;"></p>
 <p><img src="images/player2wins.png" alt="Player 2 wins" style="width:600px;height:150px;border:0;"></p>
 
-<p>Zudem sollte es zu Beginn des Spiels einen Titelbildschirm geben, in welchem man zwischen dem Multiplayer oder Singleplayer Modus wählen kann. Hierbei sollte auch eingeblendet werden, welche Krabbe zu welchem Spieler gehört und wie diese zu steuern sind. 
-<br>Außerdem sollten die nährstoffreichen Würmer überlebenswichtig sein. Um nicht zu verhungern, müssten ca. 5 Würmer pro Minute gefressen werden. 
-Dazu müssten im oberen Drittel des Bildschirms zwei Health Bars angezeigt werden, die kontinuierlich sinken und beim Verzehr von Würmern wieder partiell aufgefüllt werden. Dadurch entstünde ein Konkurrenzkampf zwischen den Krabben, der den Spielspaß erheblich steigern würde.
-<br>Des Weiteren sollten die überaus dekorativen Seesterne eine Funktion erhalten. Wir dachten an einen Super-Mario-inspired Seestern, der die Krabben temporär unsterblich macht. Außerdem kann die Krabbe durch ihre Superkraft die Hummer zerstören, wodurch das Gameplay erheblich verbessert würde und eine längere Spieldauer ermöglicht würde.</p> 
+<p>Zudem sollte es zu Beginn des Spiels einen Titelbildschirm geben, in welchem man zwischen dem Multiplayer oder Singleplayer Modus wählen kann. Hierbei sollte auch eingeblendet werden, welche Krabbe zu welchem Spieler gehört und wie diese zu steuern sind.</p>
+<p>Außerdem sollten die nährstoffreichen Würmer überlebenswichtig sein. Um nicht zu verhungern, müssten ca. 5 Würmer pro Minute gefressen werden.<br>
+Dazu müssten im oberen Drittel des Bildschirms zwei Health Bars angezeigt werden, die kontinuierlich sinken und beim Verzehr von Würmern wieder partiell aufgefüllt werden. Dadurch entstünde ein Konkurrenzkampf zwischen den Krabben, der den Spielspaß erheblich steigern würde.</p>
+<p>Des Weiteren sollten die überaus dekorativen Seesterne eine Funktion erhalten. Wir dachten an einen Super-Mario-inspired Seestern, der die Krabben temporär unsterblich macht. Außerdem kann die Krabbe durch ihre Superkraft die Hummer zerstören, wodurch das Gameplay erheblich verbessert würde und eine längere Spieldauer ermöglicht würde.</p> 
 
 <hr>
 
