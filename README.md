@@ -29,11 +29,11 @@
 <p>Es tummeln sich dort Würmer, Seesterne und Hummer. In einem ständigen Überlebens- und Konkurrenzkampf erleben Sie den ultimativen Adrenalinkick. Sie sind ständig auf der Suche nach leckeren Würmern. Doch nehmen Sie sich in Acht vor den sadistischen Hummern, die sich völlig unberechenbar bewegen und Ihnen während der Nahrungssuche nach dem Leben trachten. 
 Ab und zu können Sie sich am Anblick äußerst dekorativer Seesterne beglücken.</p>
 
-<p style="color:#4479a2;">Clash of Crabs ist zurzeit ein reines Multiplayerspiel.</p>
+<p style="color:CadetBlue;">Clash of Crabs ist zurzeit ein reines Multiplayerspiel.</p>
 
 <h4> <a id="Zie">Ziel des Spiels</a></h4>
 
-<p>Überleben!</p>
+<p style="color:Navy;">Überleben!</p>
 
 <h4> <a id="Ste">Steuerung</a></h4>
 
