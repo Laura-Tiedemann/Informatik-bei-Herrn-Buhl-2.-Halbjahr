@@ -58,7 +58,8 @@ Anschließend haben wir uns mit dem FatCat Szenario beschäftigt. Da wir die Bef
 
 Unsere erste Idee für eine Verbesserung bestand darin, Clash of Crabs zu einem Multiplayerspiel zu machen, da Multiplayerspiele sich generell einer hohen Beliebtheit erfreuen. Hierfür haben wir uns überlegt, dass die eine Krabbe mit den Pfeiltasten und die andere Krabbe mit w,a,s,d, gesteuert werden kann. Natürlich müssen sich die beiden Krabben auch optisch voneinander unterscheiden.
 
-![Player 1](crab3.png) ![Player 2](crab4.png)
+<img src="images/crab3.png" alt="Player 1" style="width:100px;height:82px;border:0;">
+<img src="images/crab4.png" alt="Player 2" style="width:100px;height:97px;border:0;">
 
 Des Weiteren haben wir die Grafiken etwas überarbeitet, da wir einen realistischeren Touch für das Spiel bevorzugen.
 Einzig die Grafik der Würmer haben wir beim Alten belassen, um den Niedlichkeitsfaktor des Spiels beizubehalten.
@@ -89,7 +90,7 @@ Damit immer neue Hummer spawnen, haben wir in CrabWorld in "Fields" zuerst eine 
 
 Nach dem selben Prinzip haben wir auch immer neue Würmer und Seesterne spawnen lassen. Die "zeitZumWurm" haben wir auf 75 Tics festgelegt, damit diese stets vorhanden sind. Die Seesterne spawnen nach 1000 Tics, sodass das Treffen auf einen Seestern eine seltene Begegnung bleibt.
 
-![Spielszenario](Spielszenario.png)
+<img src="images/Spielszenario.png" alt="Spielszenario" style="width:550px;height:350px;border:0;">
 
 <hr>
 
@@ -99,9 +100,8 @@ Wir haben noch viele weitere Ideen, um unser Spiel zu verbessern, die wir jedoch
 
 Am wichtigsten wäre uns zunächst die Einblendung des Gewinners am Ende des Spiels. Hierfür haben wir bereits zwei Grafiken  erstellt ("Player 1 wins","Player 2 wins"). Leider ist es uns bisher nicht gelungen, diese ins Spiel zu integrieren. Die Schwierigkeit hierbei bestand vor allem darin, die jeweilige Grafik mit der betreffenden Krabbe zu verbinden.
 
-![Player 1 wins](player1wins.png)
-
-![Player 2 wins](player2wins.png)
+<img src="images/player1wins.png" alt="Player 1 wins" style="width:600px;height:150px;border:0;">
+<img src="images/player2wins.png" alt="Player 2 wins" style="width:600px;height:150px;border:0;">
 
 Zudem sollte es zu Beginn des Spiels einen Titelbildschirm geben, in welchem man zwischen dem Multiplayer oder Singleplayer Modus wählen kann. Hierbei sollte auch eingeblendet werden, welche Krabbe zu welchem Spieler gehört und wie diese zu steuern sind. 
 
