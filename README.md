@@ -1,9 +1,9 @@
 
-# <a id="h">Stride Lernaktivitäten Krull+Tiedemann</a>
-    Informatik bei Herrn Buhl, 1. Halbjahr 2016
+<h1> <a id="h">Stride Lernaktivitäten Krull+Tiedemann</a></h1>
+Informatik bei Herrn Buhl, 2. Halbjahr 2016/17
  
-## Clash of Crabs
-    Bitte entnehmen Sie unser Spiel Clash of Crabs dem Informatikordner auf iSurfStormarn.
+<h2> Clash of Crabs</h2>
+Bitte entnehmen Sie unser Spiel Clash of Crabs dem Informatikordner auf iSurfStormarn.
     
 ### Gliederung
 1. [Spielprinzip](#a)
