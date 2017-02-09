@@ -18,7 +18,7 @@ Bitte entnehmen Sie unser Spiel Clash of Crabs dem Informatikordner auf iSurfSto
       <li><a href="#Wei">3. Weitere Entwicklungsideen</a></li>
     </ul>
 
-___ 
+<hr>
 
 <h3><a id="Spi">Spielprinzip</a></h3>
 
@@ -41,7 +41,7 @@ Naturgetreue Darstellungen sind uns sehr wichtig. Daher bewegen sich die Krabben
 
 Die obere Krabbe (Player 1) wird mit Hilfe der Pfeiltasten gesteuert, die untere Krabbe (Player 2) mit w,a,s,d. Beide Krabben bewegen sich von allein, einzig die Richtungsänderung muss bestimmt werden.
 
-___ 
+<hr>
 
 <h3> <a id="Ent">Spielentwicklung</a></h3>
 
@@ -90,7 +90,8 @@ Damit immer neue Hummer spawnen, haben wir in CrabWorld in "Fields" zuerst eine 
 Nach dem selben Prinzip haben wir auch immer neue Würmer und Seesterne spawnen lassen. Die "zeitZumWurm" haben wir auf 75 Tics festgelegt, damit diese stets vorhanden sind. Die Seesterne spawnen nach 1000 Tics, sodass das Treffen auf einen Seestern eine seltene Begegnung bleibt.
 
 ![Spielszenario](Spielszenario.png)
-___ 
+
+<hr>
 
 <h3> <a id="Wei">Weitere Entwicklungsideen</a></h3>
 
@@ -109,6 +110,6 @@ Dazu müssten im oberen Drittel des Bildschirms zwei Health Bars angezeigt werde
 
 Des Weiteren sollten die überaus dekorativen Seesterne eine Funktion erhalten. Wir dachten an einen Super-Mario-inspired Seestern, der die Krabben temporär unsterblich macht. Außerdem kann die Krabbe durch ihre Superkraft die Hummer zerstören, wodurch das Gameplay erheblich verbessert würde und eine längere Spieldauer ermöglicht würde. 
 
-___ 
+<hr>
 
 <a href="#Übe">zum Seitenanfang</a>
