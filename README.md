@@ -2,7 +2,7 @@
 <h1> <a id="Übe">Stride Lernaktivitäten Krull+Tiedemann</a></h1>
 <p>Informatik bei Herrn Buhl, 2. Halbjahr 2016/17</p>
  
-<h2>Clash of Crabs</h2>
+<h2 style="color:CadetBlue;">Clash of Crabs</h2>
 <p>Bitte entnehmen Sie unser Spiel Clash of Crabs dem Informatikordner auf iSurfStormarn.</p>
     
 <h3> Gliederung</h3>
