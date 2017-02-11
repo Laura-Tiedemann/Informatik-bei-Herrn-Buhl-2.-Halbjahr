@@ -5,7 +5,7 @@
 <h2 style="color:CadetBlue;">Clash of Crabs</h2>
 <p>Bitte entnehmen Sie unser Spiel Clash of Crabs dem Informatikordner auf iSurfStormarn.</p>
     
-<h3> Gliederung</h3>
+<h3 style="color:Navy;">Gliederung</h3>
 
 <ul>
       <li><a href="#Spi">1. Spielprinzip</a></li>
@@ -29,11 +29,11 @@
 <p>Es tummeln sich dort Würmer, Seesterne und Hummer. In einem ständigen Überlebens- und Konkurrenzkampf erleben Sie den ultimativen Adrenalinkick. Sie sind ständig auf der Suche nach leckeren Würmern. Doch nehmen Sie sich in Acht vor den sadistischen Hummern, die sich völlig unberechenbar bewegen und Ihnen während der Nahrungssuche nach dem Leben trachten. 
 Ab und zu können Sie sich am Anblick äußerst dekorativer Seesterne beglücken.</p>
 
-<p style="color:CadetBlue;">Clash of Crabs ist zurzeit ein reines Multiplayerspiel.</p>
+<p>Clash of Crabs ist zurzeit ein reines Multiplayerspiel.</p>
 
 <h4> <a id="Zie">Ziel des Spiels</a></h4>
 
-<p style="color:Navy;">Überleben!</p>
+<p>Überleben!</p>
 
 <h4> <a id="Ste">Steuerung</a></h4>
 
