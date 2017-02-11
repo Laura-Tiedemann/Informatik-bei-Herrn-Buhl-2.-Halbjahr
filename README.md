@@ -1,13 +1,13 @@
 
-<h1> <a id="Übe">Stride Lernaktivitäten Krull+Tiedemann</a></h1>
+<h1 style="color:Navy;"><a id="Übe"><b>Stride Lernaktivitäten Krull+Tiedemann</b></a></h1>
 <p>Informatik bei Herrn Buhl, 2. Halbjahr 2016/17</p>
  
-<h2 style="color:CadetBlue;">Clash of Crabs</h2>
+<h2 style="color:CadetBlue;"><b>Clash of Crabs</b></h2>
 <p>Bitte entnehmen Sie unser Spiel Clash of Crabs dem Informatikordner auf iSurfStormarn.</p>
     
 <h3 style="color:Navy;">Gliederung</h3>
 
-<ul>
+<ul style="color:CadetBlue;">
       <li><a href="#Spi">1. Spielprinzip</a></li>
       <li><a href="#Zie">1.1 Ziel des Spiels</a></li>
       <li><a href="#Ste">1.2 Steuerung</a></li>
@@ -20,7 +20,7 @@
 
 <hr>
 
-<h3><a id="Spi">Spielprinzip</a></h3>
+<h3 style="color:Navy;"><a id="Spi">Spielprinzip</a></h3>
 
 <p>Schlüpfen Sie in die Rolle einer Krabbe am Sandstrand!</p>
 
@@ -31,29 +31,29 @@ Ab und zu können Sie sich am Anblick äußerst dekorativer Seesterne beglücken
 
 <p>Clash of Crabs ist zurzeit ein reines Multiplayerspiel.</p>
 
-<h4> <a id="Zie">Ziel des Spiels</a></h4>
+<h4 style="color:CadetBlue;"> <a id="Zie">Ziel des Spiels</a></h4>
 
 <p>Überleben!</p>
 
-<h4> <a id="Ste">Steuerung</a></h4>
+<h4 style="color:CadetBlue;"> <a id="Ste">Steuerung</a></h4>
 
 <p>Naturgetreue Darstellungen sind uns sehr wichtig. Daher bewegen sich die Krabben seitwärts fort.<br>
 Die obere Krabbe (Player 1) wird mit Hilfe der Pfeiltasten gesteuert, die untere Krabbe (Player 2) mit w,a,s,d. Beide Krabben bewegen sich von allein, einzig die Richtungsänderung muss bestimmt werden.</p>
 
 <hr>
 
-<h3> <a id="Ent">Spielentwicklung</a></h3>
+<h3 style="color:CadetBlue;"> <a id="Ent">Spielentwicklung</a></h3>
 
 <p>Zuerst haben wir uns durch die Stride Lernaktivitäten gearbeitet, um uns einen ersten Einblick in die Programmiersprache Stride zu verschaffen. Dabei fiel uns vor allem das "Little Crab" Szenario ins Auge, welches unserer Meinung nach hohes Potenzial besitzt. Also haben wir uns die weiteren Informatikstunden dem "Little Crab" Szenario gewidmet, unsere eigenen Ideen eingebracht und es immer weiter verbessert, bis schließlich unser Spiel "Clash of Crabs" entstanden ist.</p>
 
-<h4> <a id="Ein">Greenfoot-Einstieg</a></h4>
+<h4 style="color:Navy;"> <a id="Ein">Greenfoot-Einstieg</a></h4>
 
 <p>Um einen ersten Einblick in Greenfoot zu bekommen, haben wir uns zunächst durch die Greenfoot-Stride-Lernaktivitäten gearbeitet. Das Meet-the-Greeps Szenario gab uns einen ersten Eindruck, wie Greenfoot aufgebaut ist und wie wir Befehle im Editor erstellen und verändern. Die Grundlagen der Tastatursteuerung sowie die Verwendung von Variablen haben wir so kennengelernt. <br>
 Anschließend haben wir uns mit dem FatCat Szenario beschäftigt. Da wir die Befehle hierbei selbst erstellen sollten, haben wir uns mit den verschiedenen Hotkeys auseinandergesetzt und anschließend verschiedene Methoden ausprobiert. Das Endergebnis der tanzenden Katze war dabei ein großer Erfolg.</p>
 
 <p><img src="images/cat-dance.png" alt="Cat-Dance" style="width:290px;height:230px;border:0;"></p>
 
-<h4> <a id="Ide">Ideen</a></h4>
+<h4 style="color:Navy;"> <a id="Ide">Ideen</a></h4>
 
 <p>Unsere erste Idee für eine Verbesserung bestand darin, Clash of Crabs zu einem Multiplayerspiel zu machen, da Multiplayerspiele sich generell einer hohen Beliebtheit erfreuen. Hierfür haben wir uns überlegt, dass die eine Krabbe mit den Pfeiltasten und die andere Krabbe mit w,a,s,d, gesteuert werden kann. Natürlich müssen sich die beiden Krabben auch optisch voneinander unterscheiden.</p>
 
@@ -66,7 +66,7 @@ Einzig die Grafik der Würmer haben wir beim Alten belassen, um den Niedlichkeit
 <p>Für die Hummer haben wir einen praktikablen Bewegungsablauf programmiert, der sie nach dem Zufallsprinzip über den gesamten Bildschirm laufen lässt. Zudem erscheinen nach einiger Zeit neue Hummer, sodass der Schwierigkeitsgrad erhöht wird. Sie erscheinen immer genau in der Mitte des Bildschirms, damit das Spiel für beide Spieler fair bleibt.<br>
 Als letztes haben wir dem Spiel noch Sounds hinzugefügt: Eine chillige Beachmusic als Hintergrundmusik, um Strandflair zu kreieren, sowie einen hippen Sound, wenn eine der Krabben gefressen wird. Dieser gibt somit den Gewinner akustisch bekannt.</p>
 
-<h4> <a id="Imp">Implementierung</a></h4>
+<h4 style="color:Navy;"> <a id="Imp">Implementierung</a></h4>
 
 <p>Um den zwei Krabben eine unterschiedliche Tastatursteuerung zu geben, haben wir mit Constructors gearbeitet. 
 Dafür haben wir zunächst beim Actor "Crab" in "Fields" vier Variablen vom Typ String erstellt (keyUp, keyDown, keyLeft, keyRight). In "Constructors" haben wir dann für jede Krabbe vier Constructors (keyU, keyD, keyL, keyR), ebenfalls vom Typ String, erstellt. Darunter haben wir die vier Constructors definiert, und zwar als die vier zuvor erstellten Variablen. 
@@ -86,7 +86,7 @@ Mit den Wahrscheinlichkeiten haben wir so lange rumprobiert, bis die Hummer schl
 
 <hr>
 
-<h3> <a id="Wei">Weitere Entwicklungsideen</a></h3>
+<h3 style="color:Navy;"> <a id="Wei">Weitere Entwicklungsideen</a></h3>
 
 <p>Wir haben noch viele weitere Ideen, um unser Spiel zu verbessern, die wir jedoch aufgrund Zeitmangels (noch) nicht umsetzen konnten. 
 <br>Am wichtigsten wäre uns zunächst die Einblendung des Gewinners am Ende des Spiels. Hierfür haben wir bereits zwei Grafiken  erstellt ("Player 1 wins","Player 2 wins"). Leider ist es uns bisher nicht gelungen, diese ins Spiel zu integrieren. Die Schwierigkeit hierbei bestand vor allem darin, die jeweilige Grafik mit der betreffenden Krabbe zu verbinden.</p>
@@ -101,4 +101,4 @@ Dazu müssten im oberen Drittel des Bildschirms zwei Health Bars angezeigt werde
 
 <hr>
 
-<p><a href="#Übe">zum Seitenanfang</a></p>
+<p style="color:CadetBlue;"><a href="#Übe">zum Seitenanfang</a></p>
