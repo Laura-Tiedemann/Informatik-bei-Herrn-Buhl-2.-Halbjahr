@@ -57,8 +57,7 @@ Anschließend haben wir uns mit dem FatCat Szenario beschäftigt. Da wir die Bef
 
 <p>Unsere erste Idee für eine Verbesserung bestand darin, Clash of Crabs zu einem Multiplayerspiel zu machen, da Multiplayerspiele sich generell einer hohen Beliebtheit erfreuen. Hierfür haben wir uns überlegt, dass die eine Krabbe mit den Pfeiltasten und die andere Krabbe mit w,a,s,d, gesteuert werden kann. Natürlich müssen sich die beiden Krabben auch optisch voneinander unterscheiden.</p>
 
-<p><img src="images/crab3.png" alt="Player 1" style="width:100px;height:82px;border:0;"></p>
-<p><img src="images/crab4.png" alt="Player 2" style="width:100px;height:97px;border:0;"></p>
+<p><img src="images/crab3.png" alt="Player 1" style="width:100px;height:82px;border:0;"> <img src="images/crab4.png" alt="Player 2" style="width:100px;height:97px;border:0;"></p>
 
 <p>Des Weiteren haben wir die Grafiken etwas überarbeitet, da wir einen realistischeren Touch für das Spiel bevorzugen.
 Einzig die Grafik der Würmer haben wir beim Alten belassen, um den Niedlichkeitsfaktor des Spiels beizubehalten.</p>
