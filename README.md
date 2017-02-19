@@ -2,7 +2,7 @@
 <h1 style="color:Navy;"><a id="Übe"><b>Stride Lernaktivitäten Krull+Tiedemann</b></a></h1>
 <p>Informatik bei Herrn Buhl, 2. Halbjahr 2016/17</p>
 
-<p><a href="https://laura-tiedemann.github.io/Stundenprotokoll.github.io/">Hier geht's zu unserem Stundenprotokoll</a></p>
+<p><a href="https://laura-tiedemann.github.io/Stundenprotokoll.github.io/">Hier geht's zu unserem Stundenprotokoll!</a></p>
  
 <h2 style="color:CadetBlue;"><b>Clash of Crabs</b></h2>
 <p>Bitte entnehmen Sie unser Spiel Clash of Crabs dem Informatikordner auf iSurfStormarn.</p>
