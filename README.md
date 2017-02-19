@@ -16,6 +16,7 @@
       <li><a href="#Ide">2.2 Ideen</a></li>
       <li><a href="#Imp">2.3 Implementierung</a></li>
       <li><a href="#Wei">3. Weitere Entwicklungsideen</a></li>
+      <li><a href="#Neu">4. Neuerungen im 2. Halbjahr</a></li>    
     </ul>
 
 <hr>
@@ -98,6 +99,7 @@ Mit den Wahrscheinlichkeiten haben wir so lange rumprobiert, bis die Hummer schl
 Dazu müssten im oberen Drittel des Bildschirms zwei Health Bars angezeigt werden, die kontinuierlich sinken und beim Verzehr von Würmern wieder partiell aufgefüllt werden. Dadurch entstünde ein Konkurrenzkampf zwischen den Krabben, der den Spielspaß erheblich steigern würde.</p>
 <p>Des Weiteren sollten die überaus dekorativen Seesterne eine Funktion erhalten. Wir dachten an einen Super-Mario-inspired Seestern, der die Krabben temporär unsterblich macht. Außerdem kann die Krabbe durch ihre Superkraft die Hummer zerstören, wodurch das Gameplay erheblich verbessert würde und eine längere Spieldauer ermöglicht würde.</p> 
 
+<h3 style="color:Navy;"> <a id="Neu">Neuerungen im 2. Halbjahr</a></h3>
 <hr>
 
 <p style="color:CadetBlue;"><a href="#Übe">zum Seitenanfang</a></p>
