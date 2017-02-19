@@ -1,6 +1,8 @@
 
 <h1 style="color:Navy;"><a id="Übe"><b>Stride Lernaktivitäten Krull+Tiedemann</b></a></h1>
 <p>Informatik bei Herrn Buhl, 2. Halbjahr 2016/17</p>
+
+<p><a href="https://laura-tiedemann.github.io/Stundenprotokoll.github.io/">Hier geht's zu unserem Stundenprotokoll</a></p>
  
 <h2 style="color:CadetBlue;"><b>Clash of Crabs</b></h2>
 <p>Bitte entnehmen Sie unser Spiel Clash of Crabs dem Informatikordner auf iSurfStormarn.</p>
@@ -103,9 +105,9 @@ Dazu müssten im oberen Drittel des Bildschirms zwei Health Bars angezeigt werde
 
 <p>Einige der oben genannten (Weiter-)Entwicklungsideen haben wir umgesetzt.</p>
 <p>Zunächst wird der Gewinner nun am Ende des Spiels durch die Bilder "Player 1 wins" und "Player 2 wins" festgelegt. Dazu wurden beide Bilder den entgegengesetzen Krabben ("Player 1 wins" -> Krabbe 2/Player 2 und "Player 2 wins" -> Krabbe 1/Player 1)  zugeordnet. Diese Bilder wurden als Constructor "Image_3" definiert und wir haben den Befehl "setImage(Image_3)" in die "EatCrab-Methode" eingefügt. Die betreffende Krabbe wird, sobald sie vom Lobster gefressen wird, durch dieses Bild ersetzt. Das Bild wird zudem durch die Befehle "setRotation(0)" und "setLocation(int,int)" in der Mitte des Spielfelds positioniert.</p>
-<p>Der Super-Mario-inspired Seestern wurde zudem eingefügt. Der Seestern spawnt automatisch wie oben beschrieben und wird bei Berührung mit den Krabben vom Bildschirm verschwinden (if "isTouching()"; "removeTouching()"). Um kenntlich zu machen, dass die Krabbe die Superkraft besitzt, wechselt zum einen das Bild der Krabbe stetig zwischen dem normalen und einem mit erhöhter Helligkeit. So sieht es aus, als ob die Krabbe leuchtet. Dies wird durch den Befehl !!!?!!! erreicht. Am Ende wird das Bild durch "setImage(Image_1)" auf das Ursprungsbild zurückgesetzt. 
-<br>Zum anderen wird eine Superkraft-Musik ("Greenfoot.playSound()") spielen. In dieser Superkraft-Zeit kann die Krabbe durch if"isTouching()";"removeTouching()" die Lobster fressen. 
-<br>All dies passiert in einer neuen Methode, die nur aktiviert ist, wenn die Superkraft=true ist und durch die Fragemethode (public boolean; true/false) von den Lobstern abgefragt werden kann. Die Superkraft wird beim Aufeinandertreffen des Seesterns und einer Krabbe true gesetzt. Nach einer bestimmten Anzahl von Tics wird die Superkraft dann wieder false gesetzt, sodass die Krabben nun wieder von den Lobstern gefressen werden können.</p>
+<p>Der Super-Mario-inspired Seestern wurde zudem eingefügt. Der Seestern spawnt automatisch wie oben beschrieben und wird bei Berührung mit den Krabben vom Bildschirm verschwinden (if "isTouching()"; "removeTouching()"). Um kenntlich zu machen, dass die Krabbe die Superkraft besitzt, wechselt zum einen das Bild der Krabbe stetig zwischen dem normalen und einem mit erhöhter Helligkeit. So sieht es aus, als ob die Krabbe leuchtet. Dies wird durch den Befehl !!!?!!! erreicht. Am Ende wird das Bild durch "setImage(Image_1)" auf das Ursprungsbild zurückgesetzt.</p> 
+<p>Zum anderen wird eine Superkraft-Musik ("Greenfoot.playSound()") spielen. In dieser Superkraft-Zeit kann die Krabbe durch if"isTouching()";"removeTouching()" die Lobster fressen.</p> 
+<p>All dies passiert in einer neuen Methode, die nur aktiviert ist, wenn die Superkraft=true ist und durch die Fragemethode (public boolean; true/false) von den Lobstern abgefragt werden kann. Die Superkraft wird beim Aufeinandertreffen des Seesterns und einer Krabbe true gesetzt. Nach einer bestimmten Anzahl von Tics wird die Superkraft dann wieder false gesetzt, sodass die Krabben nun wieder von den Lobstern gefressen werden können.</p>
 
 
 
