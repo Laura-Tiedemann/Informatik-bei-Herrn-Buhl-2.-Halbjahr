@@ -86,7 +86,7 @@ Mit den Wahrscheinlichkeiten haben wir so lange rumprobiert, bis die Hummer schl
 
 <hr>
 
-<h3 style="color:Navy;"> <a id="Wei">Weitere Entwicklungsideen</a></h3>
+<h3 style="color:Navy;"> <a id="Wei">Weitere Entwicklungsideen (Stand 1. Halbjahr)</a></h3>
 
 <p>Wir haben noch viele weitere Ideen, um unser Spiel zu verbessern, die wir jedoch aufgrund Zeitmangels (noch) nicht umsetzen konnten. 
 <br>Am wichtigsten wäre uns zunächst die Einblendung des Gewinners am Ende des Spiels. Hierfür haben wir bereits zwei Grafiken  erstellt ("Player 1 wins","Player 2 wins"). Leider ist es uns bisher nicht gelungen, diese ins Spiel zu integrieren. Die Schwierigkeit hierbei bestand vor allem darin, die jeweilige Grafik mit der betreffenden Krabbe zu verbinden.</p>
@@ -100,6 +100,13 @@ Dazu müssten im oberen Drittel des Bildschirms zwei Health Bars angezeigt werde
 <p>Des Weiteren sollten die überaus dekorativen Seesterne eine Funktion erhalten. Wir dachten an einen Super-Mario-inspired Seestern, der die Krabben temporär unsterblich macht. Außerdem kann die Krabbe durch ihre Superkraft die Hummer zerstören, wodurch das Gameplay erheblich verbessert würde und eine längere Spieldauer ermöglicht würde.</p> 
 
 <h3 style="color:Navy;"> <a id="Neu">Neuerungen im 2. Halbjahr</a></h3>
+
+<p>Einige der oben genannten (Weiter-)Entwicklungsideen haben wir umgesetzt.</p>
+<p>Zunächst wurde der Gewinner am Ende des Spiels durch die Bilder "Player 1 wins" und "Player 2 wins" festgelegt. Dazu wurde beide Bilder den entgegengesetzen Krabben ("Player 1 wins" Krabbe 2 also Player 2 und "Player 2 wins" Krabbe 1) im CrabWorld-Editor zugeordnet. Image_3 wurde definiert und wir haben den Befehl "Greenfoot.setImage(Image3)" in die "EatCrab-Methode" eingefügt. So wird die Krabbe, sobald sie vom Lobster gefressen wird durch das Bild ersetzt. Das Bild wurde zudem durch die Befehle "setRotation(0)" und "setLocation(int,int)" in der Mitte des Spiels posotioniert.</p>
+<p>
+
+
+
 <hr>
 
 <p style="color:CadetBlue;"><a href="#Übe">zum Seitenanfang</a></p>
