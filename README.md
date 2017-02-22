@@ -109,10 +109,17 @@ Dazu müssten im oberen Drittel des Bildschirms zwei Health Bars angezeigt werde
 <p><img src="images/crab5.png" alt="Player 1" style="width:120px;height:95px;border:0;"> <img src="images/crab6.png" alt="Player 2" style="width:120px;height:100px;border:0;"></p>
 <p>Zum anderen wird eine Superkraft-Musik ("Greenfoot.playSound()") spielen. In dieser Superkraft-Zeit kann die Krabbe durch if"isTouching()";"removeTouching()" die Lobster fressen.</p> 
 
-<audio controls>
+<audio id="superkraft" controls>
   <source src="audio/superkraft.mp3" type="audio/mpeg">
   Ihr Browser kann dieses Tondokument nicht wiedergeben.
 </audio>
+
+<script>
+var x = document.getElementById("superkraft");
+ { 
+    x.volume = 0.7;
+}
+</script> 
 
 <p>All dies passiert in einer neuen Methode, die nur aktiviert ist, wenn die Superkraft=true ist und durch die Fragemethode (public boolean; true/false) von den Lobstern abgefragt werden kann. Die Superkraft wird beim Aufeinandertreffen des Seesterns und einer Krabbe true gesetzt. Nach einer bestimmten Anzahl von Tics wird die Superkraft dann wieder false gesetzt, sodass die Krabben nun wieder von den Lobstern gefressen werden können.</p>
 
