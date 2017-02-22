@@ -1,9 +1,4 @@
 
-<audio controls autoplay>
-  <source src="audio/beachmusic_2.mp3" type="audio/mpeg">
-  Your browser does not support the audio tag.
-</audio>
-
 <h1 style="color:Navy;"><a id="Übe"><b>Stride Lernaktivitäten Krull+Tiedemann</b></a></h1>
 <p>Informatik bei Herrn Buhl, 2. Halbjahr 2016/17</p>
 
@@ -121,8 +116,11 @@ Dazu müssten im oberen Drittel des Bildschirms zwei Health Bars angezeigt werde
 
 <p>All dies passiert in einer neuen Methode, die nur aktiviert ist, wenn die Superkraft=true ist und durch die Fragemethode (public boolean; true/false) von den Lobstern abgefragt werden kann. Die Superkraft wird beim Aufeinandertreffen des Seesterns und einer Krabbe true gesetzt. Nach einer bestimmten Anzahl von Tics wird die Superkraft dann wieder false gesetzt, sodass die Krabben nun wieder von den Lobstern gefressen werden können.</p>
 
-
-
 <hr>
+
+<audio controls autoplay>
+  <source src="audio/beachmusic_2.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
 
 <p style="color:CadetBlue;"><a href="#Übe">zum Seitenanfang</a></p>
