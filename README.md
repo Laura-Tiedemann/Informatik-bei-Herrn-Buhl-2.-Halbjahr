@@ -108,6 +108,10 @@ Dazu müssten im oberen Drittel des Bildschirms zwei Health Bars angezeigt werde
 <p>Der Super-Mario-inspired Seestern wurde zudem eingefügt. Der Seestern spawnt automatisch wie oben beschrieben und wird bei Berührung mit den Krabben vom Bildschirm verschwinden (if "isTouching()"; "removeTouching()"). Um kenntlich zu machen, dass die Krabbe die Superkraft besitzt, wechselt zum einen das Bild der Krabbe stetig zwischen dem normalen und einem mit erhöhter Helligkeit. So sieht es aus, als ob die Krabbe leuchtet. Dies wird durch den Befehl <br>"if(getImage() == Image1) setImage(Image2) else(setImage(Image1))" erreicht. Am Ende wird das Bild durch "setImage(Image_1)" auf das Ursprungsbild zurückgesetzt.</p>
 <p><img src="images/crab5.png" alt="Player 1" style="width:120px;height:95px;border:0;"> <img src="images/crab6.png" alt="Player 2" style="width:120px;height:100px;border:0;"></p>
 <p>Zum anderen wird eine Superkraft-Musik ("Greenfoot.playSound()") spielen. In dieser Superkraft-Zeit kann die Krabbe durch if"isTouching()";"removeTouching()" die Lobster fressen.</p> 
+
+<audio>
+<source>src="superkraft.mp3" type="audio/mp3"</audio>
+
 <p>All dies passiert in einer neuen Methode, die nur aktiviert ist, wenn die Superkraft=true ist und durch die Fragemethode (public boolean; true/false) von den Lobstern abgefragt werden kann. Die Superkraft wird beim Aufeinandertreffen des Seesterns und einer Krabbe true gesetzt. Nach einer bestimmten Anzahl von Tics wird die Superkraft dann wieder false gesetzt, sodass die Krabben nun wieder von den Lobstern gefressen werden können.</p>
 
 
