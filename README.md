@@ -110,12 +110,10 @@ Dazu müssten im oberen Drittel des Bildschirms zwei Health Bars angezeigt werde
 <p>Zum anderen wird eine Superkraft-Musik ("Greenfoot.playSound()") spielen. In dieser Superkraft-Zeit kann die Krabbe durch if"isTouching()";"removeTouching()" die Lobster fressen.</p> 
 
 <audio id="audio_with_controls" 
-controls
+controls>
 src="https://github.com/Laura-Tiedemann/Informatik-bei-Herrn-Buhl-2.-Halbjahr/blob/master/superkraft.mp3" 
 type="audio/mp3" 
->
-Ihr Browser kann dieses Tondokument nicht wiedergeben.<br>
-Es enthält eine Aufführung der Europahymne. 
+Ihr Browser kann dieses Tondokument nicht wiedergeben. 
 Sie können es unter <a href="#">https://github.com/Laura-Tiedemann/Informatik-bei-Herrn-Buhl-2.-Halbjahr/blob/master/superkraft.mp3</a> abrufen.
 </audio>
 
