@@ -118,9 +118,13 @@ Dazu müssten im oberen Drittel des Bildschirms zwei Health Bars angezeigt werde
 
 <hr>
 
-<audio volume="0.3" controls  autoplay>
+<audio id="beachmusic" controls  autoplay>
   <source src="audio/beachmusic_2.mp3" type="audio/mpeg">
   Ihr Browser kann dieses Tondokument nicht wiedergeben.
 </audio>
+
+var obj = document.createElement('beachmusic');
+console.log(obj.volume); // 1
+obj.volume = 0.4;
 
 <p style="color:CadetBlue;"><a href="#Übe">zum Seitenanfang</a></p>
