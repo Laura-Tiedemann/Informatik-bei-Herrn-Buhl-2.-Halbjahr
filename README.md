@@ -118,19 +118,16 @@ Dazu müssten im oberen Drittel des Bildschirms zwei Health Bars angezeigt werde
 
 <hr>
 
-<audio id="beachmusic" controls  autoplay>
+<audio id="beachmusic" autoplay>
   <source src="audio/beachmusic_2.mp3" type="audio/mpeg">
   Ihr Browser kann dieses Tondokument nicht wiedergeben.
 </audio>
 
 <script>
 var x = document.getElementById("beachmusic");
-
-function setHalfVolume() { 
+ { 
     x.volume = 0.4;
 }
-   
-
 </script> 
 
 
