@@ -123,8 +123,15 @@ Dazu müssten im oberen Drittel des Bildschirms zwei Health Bars angezeigt werde
   Ihr Browser kann dieses Tondokument nicht wiedergeben.
 </audio>
 
-var obj = document.createElement('beachmusic');
-console.log(obj.volume); // 1
-obj.volume = 0.4;
+<script>
+var x = document.getElementById("beachmusic");
+
+function setHalfVolume() { 
+    x.volume = 0.4;
+}
+   
+
+</script> 
+
 
 <p style="color:CadetBlue;"><a href="#Übe">zum Seitenanfang</a></p>
