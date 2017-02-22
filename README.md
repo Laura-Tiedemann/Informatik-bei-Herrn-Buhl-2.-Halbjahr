@@ -111,10 +111,10 @@ Dazu müssten im oberen Drittel des Bildschirms zwei Health Bars angezeigt werde
 
 <audio id="audio_with_controls" 
 controls>
-src="https://github.com/Laura-Tiedemann/Informatik-bei-Herrn-Buhl-2.-Halbjahr/blob/master/superkraft.mp3" 
+src="audio/superkraft.mp3" 
 type="audio/mp3" 
 Ihr Browser kann dieses Tondokument nicht wiedergeben. 
-Sie können es unter <a href="#">https://github.com/Laura-Tiedemann/Informatik-bei-Herrn-Buhl-2.-Halbjahr/blob/master/superkraft.mp3</a> abrufen.
+Sie können es unter <a href="#">https://github.com/Laura-Tiedemann/Informatik-bei-Herrn-Buhl-2.-Halbjahr/blob/master/audio/superkraft.mp3</a> abrufen.
 </audio>
 
 <p>All dies passiert in einer neuen Methode, die nur aktiviert ist, wenn die Superkraft=true ist und durch die Fragemethode (public boolean; true/false) von den Lobstern abgefragt werden kann. Die Superkraft wird beim Aufeinandertreffen des Seesterns und einer Krabbe true gesetzt. Nach einer bestimmten Anzahl von Tics wird die Superkraft dann wieder false gesetzt, sodass die Krabben nun wieder von den Lobstern gefressen werden können.</p>
