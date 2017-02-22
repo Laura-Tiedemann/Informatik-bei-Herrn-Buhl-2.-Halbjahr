@@ -111,7 +111,7 @@ Dazu müssten im oberen Drittel des Bildschirms zwei Health Bars angezeigt werde
 
 <audio controls>
   <source src="audio/superkraft.mp3" type="audio/mpeg">
-  Your browser does not support the audio tag.
+  Ihr Browser kann dieses Tondokument nicht wiedergeben.
 </audio>
 
 <p>All dies passiert in einer neuen Methode, die nur aktiviert ist, wenn die Superkraft=true ist und durch die Fragemethode (public boolean; true/false) von den Lobstern abgefragt werden kann. Die Superkraft wird beim Aufeinandertreffen des Seesterns und einer Krabbe true gesetzt. Nach einer bestimmten Anzahl von Tics wird die Superkraft dann wieder false gesetzt, sodass die Krabben nun wieder von den Lobstern gefressen werden können.</p>
@@ -120,7 +120,7 @@ Dazu müssten im oberen Drittel des Bildschirms zwei Health Bars angezeigt werde
 
 <audio controls autoplay volume=0.5>
   <source src="audio/beachmusic_2.mp3" type="audio/mpeg">
-  Your browser does not support the audio tag.
+  Ihr Browser kann dieses Tondokument nicht wiedergeben.
 </audio>
 
 <p style="color:CadetBlue;"><a href="#Übe">zum Seitenanfang</a></p>
