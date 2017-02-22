@@ -1,4 +1,9 @@
 
+<audio controls autoplay>
+  <source src="audio/beachmusic_2.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+
 <h1 style="color:Navy;"><a id="Übe"><b>Stride Lernaktivitäten Krull+Tiedemann</b></a></h1>
 <p>Informatik bei Herrn Buhl, 2. Halbjahr 2016/17</p>
 
