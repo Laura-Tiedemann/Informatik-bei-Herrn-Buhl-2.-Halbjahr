@@ -118,7 +118,7 @@ Dazu müssten im oberen Drittel des Bildschirms zwei Health Bars angezeigt werde
 
 <hr>
 
-<audio controls autoplay>
+<audio controls autoplay volume=0.5>
   <source src="audio/beachmusic_2.mp3" type="audio/mpeg">
   Your browser does not support the audio tag.
 </audio>
