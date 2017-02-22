@@ -110,7 +110,7 @@ Dazu müssten im oberen Drittel des Bildschirms zwei Health Bars angezeigt werde
 <p>Zum anderen wird eine Superkraft-Musik ("Greenfoot.playSound()") spielen. In dieser Superkraft-Zeit kann die Krabbe durch if"isTouching()";"removeTouching()" die Lobster fressen.</p> 
 
 <audio>
-<source>src="superkraft.mp3" type="audio/mp3"</audio>
+<source src="superkraft.mp3"> type="audio/mp3"</audio>
 
 <p>All dies passiert in einer neuen Methode, die nur aktiviert ist, wenn die Superkraft=true ist und durch die Fragemethode (public boolean; true/false) von den Lobstern abgefragt werden kann. Die Superkraft wird beim Aufeinandertreffen des Seesterns und einer Krabbe true gesetzt. Nach einer bestimmten Anzahl von Tics wird die Superkraft dann wieder false gesetzt, sodass die Krabben nun wieder von den Lobstern gefressen werden können.</p>
 
