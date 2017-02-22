@@ -111,7 +111,7 @@ Dazu müssten im oberen Drittel des Bildschirms zwei Health Bars angezeigt werde
 
 <audio id="audio_with_controls" 
 controls>
-src="audio/superkraft.mp3" 
+src="https://github.com/Laura-Tiedemann/Informatik-bei-Herrn-Buhl-2.-Halbjahr/blob/master/audio/superkraft.mp3" 
 type="audio/mp3" 
 Ihr Browser kann dieses Tondokument nicht wiedergeben. 
 Sie können es unter <a href="#">https://github.com/Laura-Tiedemann/Informatik-bei-Herrn-Buhl-2.-Halbjahr/blob/master/audio/superkraft.mp3</a> abrufen.
